@@ -1,0 +1,79 @@
+.table {
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  margin-bottom: 1px; }
+  .table_block {
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 300px;
+    text-align: center;
+    height: 40px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    line-height: 40px; }
+    .table_block_input {
+      background-color: transparent;
+      border: none;
+      box-sizing: border-box;
+      text-align: center;
+      height: 40px;
+      width: 100%; }
+    .table_block_firm {
+      border: 1px solid white;
+      box-sizing: border-box;
+      width: 300px;
+      text-align: center;
+      min-height: 50px;
+      background-color: darkgrey;
+      line-height: 50px; }
+    .table_block_delete {
+      border: 1px solid white;
+      box-sizing: border-box;
+      width: 300px;
+      text-align: center;
+      min-height: 40px;
+      background-color: indianred;
+      line-height: 40px; }
+      .table_block_delete:hover {
+        background-color: darkred;
+        color: white; }
+      .table_block_delete:active {
+        background-color: indianred;
+        color: white; }
+  .table_title {
+    text-align: center;
+    font-family: Arial; }
+  .table_button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer; }
+    .table_button:hover {
+      background-color: transparent;
+      border: 1px solid cornflowerblue; }
+    .table_button:active {
+      background-color: cornflowerblue;
+      border: 1px solid white; }
+  .table_info {
+    width: 100%; }
+    .table_info_label {
+      display: block;
+      margin-bottom: 7px; }
+    .table_info_input {
+      height: 41px;
+      border: 1px solid #898989;
+      box-sizing: border-box;
+      border-radius: 5px;
+      padding: 12px 14px 10px 14px;
+      display: block;
+      width: 100%;
+      margin-bottom: 10px; }
+
+/*# sourceMappingURL=style.css.map */

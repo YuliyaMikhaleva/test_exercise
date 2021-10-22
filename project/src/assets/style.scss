@@ -1,0 +1,91 @@
+.table{
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  margin-bottom: 1px;
+  &_block{
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 300px;
+    text-align: center;
+    height: 40px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    line-height: 40px;
+    &_input{
+      background-color: transparent;
+      border: none;
+      box-sizing: border-box;
+      text-align: center;
+      height: 40px;
+      width: 100%;
+    }
+    &_firm{
+      border: 1px solid white;
+      box-sizing: border-box;
+      width: 300px;
+      text-align: center;
+      min-height: 50px;
+      background-color: darkgrey;
+      line-height:50px;
+    }
+    &_delete{
+      border: 1px solid white;
+      box-sizing: border-box;
+      width :300px;
+      text-align: center;
+      min-height: 40px;
+      background-color: indianred;
+      line-height: 40px;
+      &:hover{
+        background-color: darkred;
+        color: white;
+      }
+      &:active{
+        background-color: indianred;
+        color: white;
+      }
+    }
+  }
+  &_title{
+    text-align: center;
+    font-family: Arial;
+  }
+  &_button{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+      background-color: transparent;
+      border: 1px solid cornflowerblue ;
+    }
+    &:active{
+      background-color: cornflowerblue;
+      border: 1px solid white;
+    }
+  }
+  &_info{
+    width: 100%;
+    &_label{
+      display: block;
+      margin-bottom: 7px;
+    }
+    &_input{
+      height: 41px;
+      border: 1px solid #898989;
+      box-sizing: border-box;
+      border-radius: 5px;
+      padding: 12px 14px 10px 14px;
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}
